@@ -1,0 +1,127 @@
+body{
+    background-color:  hsl(0, 0%, 100%);
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 800px;
+    
+    
+    margin: 0;
+    position: relative;
+    margin-left: 40px;
+}
+.top-left{
+    position: absolute;
+    left: 180px;
+    top: 80px;
+}
+
+img{
+    position: absolute;
+
+}
+h1{
+    color:  hsl(300, 43%, 22%);
+    font-size: 50px;
+    line-height: 0.9;
+    font-family: 'League Spartan', sans-serif;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+
+.p1{
+    margin-top: 0;
+    color:  hsl(303, 10%, 53%);
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+}
+.top-right{
+    height: 40px;
+    width: 400px;
+    
+    position: absolute;
+    background-color:  hsl(300, 24%, 96%);
+    
+    border-radius: 8px;
+}
+.A{
+    top: 150px;
+    left: 790px;
+}
+
+.B{
+    top: 205px;
+    left: 840px;
+}
+.C{
+    top: 260px;
+    left: 890px;
+}
+.top-p{
+    text-align: left;
+    margin-top: 8px;
+    margin-left:20px ;
+    color: hsl(300, 43%, 22%) ;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+.bottom{
+    height: 200px;
+    width: 330px;
+    
+    position: absolute;
+    background-color:   hsl(300, 43%, 22%);
+    
+    border-radius: 8px;
+}
+
+.bA{
+    left: 180px;
+    top: 410px;
+}
+
+.bB{
+    left: 550px;
+    top: 430px;
+}
+
+.bC{
+    left: 920px;
+    top: 450px;
+}
+.image-bottom{
+    width: 43px;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+.p-b{
+    display: inline-block;
+    font-size: 15px;
+    color: hsl(300, 24%, 96%) ;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 22px;
+    left: 45px;
+    margin: 0;
+    line-height: 1.2;
+}
+span{
+    color: hsl(333, 80%, 67%);
+}
+.p-ba{
+    /*text-align: center;*/
+    font-size: 15px;
+    color: hsl(300, 24%, 96%) ;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-right: 10px;
+    margin-left: 25px;
+    line-height: 1.2;
+}
